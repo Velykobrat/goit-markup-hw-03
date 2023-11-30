@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+header {
+    background-color: #E7E9FC;
+}
+
+.main-title {
+    color: #FFF;
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+color: #2E2F42;
+text-align: center;
+/* Header 2 */
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.under-section-title {
+color: #2E2F42;
+text-align: center;
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.under-section-text {
+    color: #434455;
+text-align: center;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.link-logo {
+color: #4D5AE5;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.link-logo2 {
+color: #2e2f42;
+}
+
+.navigation .link {
+color: #2E2F42;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+text-decoration: none;
+}
+
+.contacts ul a {
+color: #434455;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link:hover {
+    color: #404BBF;
+    }
+
+.link:focus {
+        color: #404BBF;
+        text-decoration: underline;
+    }
+
+.navigation {
+    list-style-type: none;
+}
+
+.contacts {
+    list-style-type: none;
+    font-style: normal;
+}
+
+.perevagu-list {
+    list-style-type: none;
+}
+
+.our-team-list .team {
+    list-style-type: none; 
+    background-color: #FFFFFF;
+}
+
+.our-portfolio-list {
+    list-style-type: none; 
+}
+
+.main-page {
+background: #2E2F42;
+}
+
+.button {
+color:#FFF;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+background: #4D5AE5;
+cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+.our-portfolio-list li {
+    background-color: #FFFFFF;
+}
+
+.down-page {
+    background-color: #2e2f42;
+}
+
+.down-section-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link-logo-down {
+    color: #F4F4FD;
+}
