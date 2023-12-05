@@ -1,7 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+}
+
+img {
+	display: block;
 }
 
 header {
@@ -84,6 +94,8 @@ text-decoration: none;
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .link:hover {
@@ -155,4 +167,12 @@ cursor: pointer;
 
 .link-logo-down {
     color: #F4F4FD;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
