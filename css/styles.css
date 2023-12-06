@@ -15,7 +15,11 @@ img {
 }
 
 header {
-    background-color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+background: #FFF;
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
 }
 
 .main-title {
@@ -70,6 +74,7 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
+margin-top: 25.5px;
 }
 
 .link-logo2 {
@@ -109,11 +114,35 @@ ul {
 
 .navigation {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.nav-contacts {
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
 }
 
 .contacts {
     list-style-type: none;
     font-style: normal;
+}
+
+.page-header .container {
+    display: flex;
+}
+
+.container .logo-nav {
+    display: flex;
+    margin-left: 156px;
+}
+
+.container .navigation {
+    max-width: 261px;
+    margin-left: 76px;
+    margin-right: 332px;
 }
 
 .perevagu-list {
@@ -175,4 +204,8 @@ h1,h2,h3 {
 
 p {
     margin: 0;
+}
+
+.section2 .container {
+    display: flex;
 }
