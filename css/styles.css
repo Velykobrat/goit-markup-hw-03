@@ -13,19 +13,21 @@ body {
 img {
 	display: block;
     height: 100%;
-  width: 100%;
+    width: 100%;
 	object-fit: cover;
 }
 
 header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
-    display: flex;
     width: 1440px;
     height: 72px;
-    justify-content: center;
-    align-items: baseline;
-    flex-shrink: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 
 .main-title {
@@ -36,10 +38,8 @@ header {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    padding-top: 188px;
-    width: 496px;
-    margin-left: 472px;
     padding-bottom: 48px;
+    max-width: 496px
 }
 
 .section-team {
@@ -47,6 +47,7 @@ header {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;
+    padding: 120px 0 120px
 }
 
 .section-title {
@@ -58,8 +59,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
-padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px
 }
 
 .under-section-title {
@@ -89,7 +89,7 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
-margin-top: 25.5px;
+margin-right: 76px;
 }
 
 .logo-dark {
@@ -123,30 +123,25 @@ ul {
     }
 
 .link:focus {
-        color: #404BBF;
-        text-decoration: underline;
+    color: #404BBF;
+    text-decoration: underline;
     }
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 24px
+}
 
 .nav-list {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-top: 24px;
 }
 
 .nav-contacts {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-}
-
-.contacts {
-    list-style-type: none;
-    font-style: normal;
-}
-
-.page-header .container {
-    display: flex;
 }
 
 .container .navigation {
@@ -155,29 +150,12 @@ ul {
 
 .container .nav-list {
     max-width: 261px;
-    margin-left: 76px;
     margin-right: 332px;
 }
 
-.perevagu-list {
+.contacts {
     list-style-type: none;
-}
-
-.perevagu-list .under-section-title {
-    margin-bottom: 8px;
-}
-
-.perevagu-list .under-section-text {
-    text-align: left;
-}
-
-.team-list .team {
-    list-style-type: none; 
-    background-color: #FFFFFF;
-}
-
-.portfolio-list {
-    list-style-type: none; 
+    font-style: normal;
 }
 
 .main-page {
@@ -185,6 +163,7 @@ background: #2E2F42;
 width: 1440px;
 height: 600px;
 flex-shrink: 0;
+padding: 188px 0 188px
 }
 
 .button {
@@ -196,11 +175,10 @@ letter-spacing: 0.64px;
 background: #4D5AE5;
 cursor: pointer;
 padding: 16px 32px 16px 32px;
-margin-left: 636px;
-margin-bottom: 188px;
 border-radius: 4px;
-background:#4D5AE5;
+background-color:#4D5AE5;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+min-width: 169px;
 }
 
 .button:hover {
@@ -237,12 +215,32 @@ p {
     margin: 0;
 }
 
-.container .perevagu-list{
-display: flex;
-align-items: center;
-gap: 24px;
-flex-shrink: 0;
+.perevagu-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
 }
+
+.perevagu-list .under-section-title {
+    margin-bottom: 8px;
+}
+
+.perevagu-list .under-section-text {
+    text-align: left;
+}
+
+.team-list .team {
+    list-style-type: none; 
+    background-color: #FFFFFF;
+}
+
+.portfolio-list {
+    list-style-type: none; 
+}
+
+
 
 .container .team-list {
     display: flex;
@@ -255,13 +253,7 @@ flex-shrink: 0;
 }
 
 .section-perevag {
-    padding-bottom: 120px;
-}
-.container {
-    max-width: 1128px;
-    margin-left: 156px;
-    margin-right: 156px;
-    padding: 0;
+    padding: 120px 0 120px
 }
 
 .team {
