@@ -21,6 +21,7 @@ header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
     width: 1440px;
+    padding: 24px 0;
 }
 
 .container {
@@ -91,7 +92,6 @@ font-weight: 500;
 letter-spacing: 0.32px;
 text-decoration: none;
 align-items: center;
-padding: 24px 0;
 }
 
 .contacts ul a {
@@ -143,6 +143,9 @@ ul {
     max-width: 261px;
     margin-right: 332px;
     align-items: center;
+}
+
+.list {
     padding: 24px 0;
 }
 
