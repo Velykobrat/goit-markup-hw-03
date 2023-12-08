@@ -126,7 +126,7 @@ ul {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 0 15px;
+    padding: 24px 0;
 }
 
 .nav-contacts {
@@ -144,7 +144,6 @@ ul {
     max-width: 261px;
     margin-right: 332px;
     align-items: center;
-    padding: 24px 0;
 }
 
 .contacts {
@@ -223,7 +222,7 @@ p {
 }
 
 .perevag-element {
-    width: calc((100% - 3 * 24px) / 4);
+    width: 264px;
 }
 
 .perevagu-list .under-section-title {
